@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--veryPaleBlue);
-  margin: 130px auto;
+  margin: 10vh auto;
   height: 70vh;
   max-width: 450px;
   /* padding: 0 20px 20px 20px; */
@@ -129,5 +129,12 @@ p {
   .App {
     margin: 100px auto;
     max-width: 90vw;
+    max-height: 90vh;
   }
+}
+
+@media screen and (max-height: 718px) {
+  .App {
+    min-height: 80vh;
+  } 
 }
